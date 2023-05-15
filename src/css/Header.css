@@ -1,0 +1,71 @@
+:root {
+
+  --headerColor: #063473;
+
+  --score: #ffec2d;
+}
+
+header {
+  align-items: center;
+  background-color: var(--headerColor);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.infoPlayer {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-left: 3%;
+}
+
+.name {
+  margin: 5px;
+  padding: 5px;
+}
+
+.gravatar {
+  margin: 5px;
+  padding: 5px;
+}
+
+.header-score {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.player-info {
+  align-items: center;
+  color: var(--score);
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 22px;
+  font-weight: 500;
+  justify-content: space-between;
+  padding: 5px;
+  width: auto;
+}
+
+.score {
+  align-items: center;
+  border-radius: 8%;
+  color: var(--score);
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: fantasy , sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  justify-content: center;
+  margin: 5px;
+  margin-right: 100px;
+  padding: 5px;
+}

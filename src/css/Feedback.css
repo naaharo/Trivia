@@ -1,0 +1,75 @@
+:root {
+
+  --headerColor: #063473;
+
+  --score: #ffec2d;
+}
+
+.feedbackCard {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 3%;
+}
+
+.feedback-message {
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  margin: 15px;
+  padding: 15px;
+}
+
+.score-message {
+  font-family: fantasy , sans-serif , serif;
+  font-size: larger;
+  font-weight: 300;
+  margin: 15px;
+  padding: 15px;
+}
+
+.scorePoints {
+  color: var(--headerColor);
+}
+
+.assertions-message {
+  font-family: fantasy , sans-serif , serif;
+  font-size: larger;
+  font-weight: 300;
+  margin: 15px;
+  padding: 15px;
+}
+
+.assertions {
+  color: var(--headerColor);
+}
+
+.play-again-button {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  width: 140px;
+}
+
+.ranking-button {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  width: 140px;
+}
+
+.ranking-button:hover {
+  cursor: pointer;
+}
+
+.play-again-button:hover {
+  cursor: pointer;
+}

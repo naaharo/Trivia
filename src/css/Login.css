@@ -1,0 +1,119 @@
+:root {
+
+  --backGroundColor: #fffbc7;
+
+  --headerColor: #063473;
+
+  --score: #ffec2d;
+
+  --disabled: rgba(122, 117, 117, 0.529);
+}
+
+body {
+  background-color: var(--backGroundColor);
+  margin: auto;
+}
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.label {
+  font-family: fantasy , sans-serif;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.input {
+  margin: 5px;
+  padding: 5px;
+  width: 180px;
+}
+
+.button-submit {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+  width: 140px;
+}
+
+.button-submit:disabled {
+  background-color: var(--disabled);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+  width: 140px;
+}
+
+.button-config {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+  width: 140px;
+}
+
+.answerCard button {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.answerCard button:disabled {
+  background-color: var(--disabled);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.answerCard button:hover {
+  cursor: pointer;
+}
+
+.button-config:hover {
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  cursor: pointer;
+}

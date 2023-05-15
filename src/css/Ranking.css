@@ -1,0 +1,58 @@
+:root {
+
+  --headerColor: #063473;
+
+  --score: #ffec2d;
+}
+
+.ranking-list {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.section-ranking {
+  margin: 20px;
+  padding: 20px;
+}
+
+.ranking {
+  margin: 20px;
+  padding: 20px;
+}
+
+.home-button {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  width: 140px;
+}
+
+.home-button:hover {
+  cursor: pointer;
+}
+
+.name {
+  margin: 5px;
+  padding: 5px;
+}
+
+.list {
+  align-items: center;
+  background-color: var(--headerColor);
+  border-radius: 30% 0;
+  color: var(--score);
+  display: flex;
+  flex-flow: row nowrap;
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  height: 40px;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+:root {
+
+  --headerColor: #063473;
+
+  --score: #ffec2d;
+
+  --disabled: rgba(122, 117, 117, 0.529);
+}
+
+.correctAnswer {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrongAnswer {
+  border: 3px solid red;
+}
+
+.borderNone {
+  border: 3px solid rgb(118, 118, 118);
+}
+
+.questionCard {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: fantasy , sans-serif , serif;
+  font-size: large;
+  justify-content: center;
+}
+
+.difficulty {
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  margin: 5px;
+  margin-right: 1000px;
+  padding: 5px;
+}
+
+.category {
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  margin: 5px;
+  padding: 5px;
+}
+
+.question {
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  margin: 15px;
+  padding: 15px;
+}
+
+.timer {
+  font-family: fantasy , sans-serif , serif;
+  font-weight: 300;
+  margin: 5px;
+  margin-left: 1000px;
+  padding: 5px;
+}
+
+.next-button {
+  background-color: var(--headerColor);
+  border-radius: 8%;
+  color: var(--score);
+  font-family: fantasy , sans-serif;
+  font-size: large;
+  font-weight: 500;
+  height: 36px;
+  margin: 5px;
+  padding: 5px;
+  width: 140px;
+}
+
+.next-button:hover {
+  cursor: pointer;
+}

@@ -14,14 +14,12 @@
 }
 
 .feedback-message {
-  font-family: fantasy , sans-serif , serif;
   font-weight: 300;
   margin: 15px;
   padding: 15px;
 }
 
 .score-message {
-  font-family: fantasy , sans-serif , serif;
   font-size: larger;
   font-weight: 300;
   margin: 15px;
@@ -33,7 +31,6 @@
 }
 
 .assertions-message {
-  font-family: fantasy , sans-serif , serif;
   font-size: larger;
   font-weight: 300;
   margin: 15px;
@@ -48,7 +45,6 @@
   background-color: var(--headerColor);
   border-radius: 8%;
   color: var(--score);
-  font-family: fantasy , sans-serif;
   font-size: large;
   font-weight: 500;
   height: 36px;
@@ -59,7 +55,6 @@
   background-color: var(--headerColor);
   border-radius: 8%;
   color: var(--score);
-  font-family: fantasy , sans-serif;
   font-size: large;
   font-weight: 500;
   height: 36px;

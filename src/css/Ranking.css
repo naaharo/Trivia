@@ -26,7 +26,6 @@
   background-color: var(--headerColor);
   border-radius: 8%;
   color: var(--score);
-  font-family: fantasy , sans-serif;
   font-size: large;
   font-weight: 500;
   height: 36px;
@@ -49,7 +48,6 @@
   color: var(--score);
   display: flex;
   flex-flow: row nowrap;
-  font-family: fantasy , sans-serif , serif;
   font-weight: 300;
   height: 40px;
   justify-content: center;

@@ -23,13 +23,12 @@
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
-  font-family: fantasy , sans-serif , serif;
   font-size: large;
   justify-content: center;
 }
 
 .difficulty {
-  font-family: fantasy , sans-serif , serif;
+  font-family: roboto , sans-serif;
   font-weight: 300;
   margin: 5px;
   margin-right: 1000px;
@@ -37,21 +36,21 @@
 }
 
 .category {
-  font-family: fantasy , sans-serif , serif;
+  font-family: roboto , sans-serif;
   font-weight: 300;
   margin: 5px;
   padding: 5px;
 }
 
 .question {
-  font-family: fantasy , sans-serif , serif;
+  font-family: roboto , sans-serif;
   font-weight: 300;
   margin: 15px;
   padding: 15px;
 }
 
 .timer {
-  font-family: fantasy , sans-serif , serif;
+  font-family: roboto , sans-serif;
   font-weight: 300;
   margin: 5px;
   margin-left: 1000px;
@@ -62,7 +61,7 @@
   background-color: var(--headerColor);
   border-radius: 8%;
   color: var(--score);
-  font-family: fantasy , sans-serif;
+  font-family: roboto , sans-serif;
   font-size: large;
   font-weight: 500;
   height: 36px;

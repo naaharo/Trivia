@@ -15,4 +15,4 @@ O objetivo principal era programar um jogo de trivia com timer, pontuação e ra
 
 Como um objetivo secundário queríamos finalizar a página de configuração onde seria possível editar a quantidade de perguntas, o assunto e a dificuldade. Não terminamos a tempo mas em breve eu atualizo.
 
-O projeto foi realizado utilizando HTML5, CSS, JavaScript, React e Redux e está disponível **[aqui](https://naaharotrivia.vercel.app/)**
+O projeto foi realizado utilizando HTML5, CSS, JavaScript, React e Redux e está disponível para teste **[aqui](https://naaharotrivia.vercel.app/)**
